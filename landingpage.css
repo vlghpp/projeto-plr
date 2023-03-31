@@ -12,7 +12,12 @@ h1{
     font-size: 5vw;
     text-align: center;
 }
-
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
 p{
     font-size: 1.7vw;
 }
@@ -103,7 +108,28 @@ p{
     text-decoration: none;
     font-size: 16px;
   }
-  
+  .menu-lateral{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	max-height: 100vh;
+  }
+  .menu-lateral ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .menu-lateral .icone{
+    width: 70px;
+    transition: 0.3s ease-in-out;
+  }
+  .menu-lateral .icone:hover{ 
+    transform: scale(1.2);
+}
   footer{
     padding: 5px;
     background-color: lightcoral;
