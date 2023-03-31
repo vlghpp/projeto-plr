@@ -16,7 +16,7 @@ li{
 }
 
 .back{
-    background-image: url(./imagem/IMAGEM\ FUNDO\ NERD.png);
+    background-image: url(../imagem/IMAGEM\ FUNDO\ NERD.png);
     background-size: cover;
     padding: 160px;
     text-align: center;
