@@ -18,6 +18,8 @@ li{
 .back{
     background-image: url(../imagem/IMAGEM\ FUNDO\ NERD.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding: 160px;
     text-align: center;
     box-shadow: 1px 1px 10px  black;
@@ -58,6 +60,9 @@ li{
     clear: both;
 }
 .copy{
+  background-image: url(../imagem/foto\ menina\ perguntando.png);
+  background-repeat: no-repeat;
+  background-position: top center;
     margin: 20px;
     display: flex;
     box-shadow: 0px 0px 5px black;
