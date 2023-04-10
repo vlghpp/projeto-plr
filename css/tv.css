@@ -1,0 +1,88 @@
+@media screen and (min-width: 993px){
+    .back{
+        padding: 170px;
+    }
+    .img{
+        display: none;
+        float: left;
+        width: 0%;
+    }
+    .preText{
+      float: right;
+      width: 95%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .preText > h1{
+      font-size: 70px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .preText > p{
+        font-size: 25px;
+    }
+    .copyTexto > h1{
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .copyTexto > p{
+        width: 90%;
+        text-align: justify;
+        margin: auto;
+        font-size: 25px;
+     }
+    .videos{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .new{  
+        height: 520px;
+        font-size: 60px;
+        overflow: hidden;
+      }
+      .avaliacoes{
+        height: 470px;
+      }
+      .avaliacoes > h1{
+        font-size: 60px;
+      }
+
+      .avaliacoes > p{
+        text-align: center;
+        font-size: 18px;
+      }
+      #av1{
+        width: 31%;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      #av2{
+        width: 32%;
+        margin: auto;
+        margin-top: 10px;
+      }
+      #av3{
+        width: 31%;
+        margin: auto;
+        margin-top: 10px;
+      }
+
+      .cta h2 {
+        font-size: 70px;
+      }
+      .cta p {
+        font-size: 25px;
+      }
+
+    .menu-lateral .icone{
+        width: 90px;
+    }
+    #tamanhoImagem{
+        width: 65px;
+        height: 65px;
+    }
+
+}
